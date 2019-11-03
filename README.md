@@ -15,6 +15,8 @@ We want to implement pull and deposit actions using Threads.
 Pull and deposit were made under 2 Lock and 2 under two conditions.
 So that each pull does not reach the minus, and each deposit does not exceed the maximum amount that can be stored.
 </pre>
+
+<br>
 <h2>Dead Lock</h2>
 <pre>
 The program runs two threads.
